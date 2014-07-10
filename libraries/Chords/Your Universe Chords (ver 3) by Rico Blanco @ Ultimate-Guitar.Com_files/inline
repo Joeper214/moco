@@ -1,0 +1,8 @@
+boonity.set_canon('ag_id',0);
+boonity.set_canon('boonity_ads',{"chords_page_160_height":600,"chords_page_160":"\u003Cdiv id=\"boonity_chords_page_160\" style=\"padding:0;margin:0;width:160px\"\u003E\n  \u003Cscript type=\"text\/javascript\"\u003E\u003C!--\ngoogle_ad_client = \"ca-pub-1397478718499488\";\n\/* npm_4079_160x600 *\/\ngoogle_ad_slot = \"4645195700\";\ngoogle_ad_width = 160;\ngoogle_ad_height = 600;\ngoogle_page_url = \"http:\/\/ultimate-guitar.com\";\n\/\/--\u003E\n\u003C\/script\u003E\n\u003Cscript type=\"text\/javascript\"\nsrc=\"http:\/\/pagead2.googlesyndication.com\/pagead\/show_ads.js\"\u003E\n\u003C\/script\u003E\n\n\u003C\/div\u003E","chords_page_160_new_height":600,"chords_page_160_new":"\u003Cdiv id=\"boonity_chords_page_160_new\" style=\"padding:0;margin:0;width:160px\"\u003E\n  \u003Cscript type=\"text\/javascript\"\u003E\u003C!--\ngoogle_ad_client = \"ca-pub-1397478718499488\";\n\/* npm_4079_160x600 *\/\ngoogle_ad_slot = \"4645195700\";\ngoogle_ad_width = 160;\ngoogle_ad_height = 600;\ngoogle_page_url = \"http:\/\/ultimate-guitar.com\";\n\/\/--\u003E\n\u003C\/script\u003E\n\u003Cscript type=\"text\/javascript\"\nsrc=\"http:\/\/pagead2.googlesyndication.com\/pagead\/show_ads.js\"\u003E\n\u003C\/script\u003E\n\n\u003C\/div\u003E","chords_page_160_new_loc_id":11522,"chords_page_160_width":160,"chords_page_160_ft":25,"chords_page_160_loc_id":8117,"chords_page_160_new_width":160,"chords_page_160_new_ft":25});
+boonity.set_canon('boonity_payload',1);
+boonity.set_canon('boonity_tracker',"/log/event/4079/cjNlaUdjdUtUc0o0RQ/0.gif?locs=c-11522:33-8117:33&category=1&gurumods=U0&channel=0");
+boonity.set_canon('boonity_category',1);
+boonity.set_canon('boonity_token','cjNlaUdjdUtUc0o0RQ');
+
+boonity.render_ad();

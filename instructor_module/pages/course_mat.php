@@ -1,0 +1,33 @@
+<?php
+   session_start();
+
+   if(isset($_SESSION['icr_id']) && isset($_SESSION['inst_id'])){
+     
+      require_once '../class_interface/course_mat_interface.php';
+
+      $title = $_SESSION['title'];
+     
+      $_COURSE_MAT_VIEW = new CoursematInterface(); 
+      //header
+      include "../template/header.php"; 
+      //title
+      echo "<div class='content-container'>";
+         include "../template/c_title.php";
+         //side banner
+	 echo "<div class='c-nav-container'>";
+            include "../template/side_bar.php";
+            //content
+            include "components/course_mat_content.php";
+         echo "</div>";
+	 echo "</div>";
+      /*****pop up dialogs*********/
+      //add lecture
+      include "components/add_lecture.php"; 
+      //add lecture material
+      include "components/add_lect_mat.php";
+      //footer
+   }
+?> 
+     </center>
+   </body>
+</html>

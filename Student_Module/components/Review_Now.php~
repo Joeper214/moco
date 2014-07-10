@@ -1,0 +1,21 @@
+<script type="text/javascript" scr="../javascript/quiz.js"> </script>
+
+<div id="page-container">
+   <!-- course title --->
+   
+   <!-- content --->
+   <div id="about_cont_con2">
+     <!--- header --->
+    
+     <div id="about_hdrStartQ">
+       <span id="about_hdr_title"><h2>
+   <?php echo $_SESSION['Qtitle'];
+      ?>
+      </h2></span>
+     </div>
+
+   <!--- Take Quiz Content --> 
+
+   <?php  
+   $QuizStart->setReviewBox($_SESSION['item_id'],$_SESSION['scr_id']);
+   ?>

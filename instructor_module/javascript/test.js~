@@ -1,0 +1,13 @@
+var test = {
+    url: null,
+    
+    /* returns the test detailin json format
+     */
+    getMPItem: function(test_id){
+	this.url = '../../libraries/php/exec_controller.php';
+	$.post(this.url, {test_id:test_id}, function(data)){
+	    
+	}
+    }
+
+};

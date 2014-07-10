@@ -1,0 +1,9 @@
+<?php
+   include("../template/header.php");
+   include("../template/moco_banner.php");
+   include("components/cd_head.php");
+   include("components/cd_courses.php");
+?>
+    </center>
+   </body>
+</html>
